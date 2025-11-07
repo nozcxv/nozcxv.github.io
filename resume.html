@@ -1,305 +1,210 @@
 <!DOCTYPE html>
+<!-- Bootstrap 5 Portfolio Template by Issam-Sari Samneh - INFO1005 Website Design - 2025 -->
+<!-- Date: September 2025 -->
 
-<!-- Bootstrap 5 Bart Simpson template designed for INFO1005 Website Design - 2025 -->
-<!-- Date: September 2025  -->
-<!-- Author: Website Design Team -->
 <html lang="en" dir="ltr">
+<head>
+  <!-- Required Bootstrap meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <head>
-    <!-- Required Boostrap meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Other meta tags -->
+  <meta name="description" content="Issam-Sari Samneh - Resume and Portfolio">
+  <meta name="author" content="Issam-Sari Samneh">
 
-    <!-- Other meta tags -->
-    <meta name="description" content="Issam-Sari Samneh's Portfolio">
-    <meta name="author" content="Issam-Sari Samneh">
+  <!-- Bootstrap icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Bootstrap icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
 
-    <!-- Favicon - use favicon.io to create your icons and save them into a favicon folder -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+  <!-- Google Fonts: Oswald & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+        crossorigin="anonymous">
 
-      <!-- Google Font: Oswald and Montserrat - Note: it is a good practice to mention your selected typefaces in your comment -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/custom.css" rel="stylesheet">
 
-      <!-- Bootstrap core CSS -->
-      <!-- IDEA: this is where Boostrap's CSS is loaded in via their CDN - you don't need to include the actual files in your site folder, but they are usful to refer to-->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>Issam-Sari Samneh | Resume</title>
+</head>
 
+<body class="bg-light">
 
-      <!-- Your custom styles for this template - must be after Bootstrap's link element to over ride it (load after) as needed -->
-      <link href="css/custom.css" rel="stylesheet">
+  <!-- NAVBAR -->
+  <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light bg-warning sticky-top shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <img src="img/constructionmang.jpg" alt="Construction worker holding steel" class="bart rounded-circle" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <title>Issam-Sari Samneh | Resume</title>
-  </head>
-
-    <body>
-      
-     <!-- NAVBAR - Start - Sourced: https://getbootstrap.com/docs/5.3/components/navbar/  -->
-     <nav id="navbar-example2" class="navbar navbar-expand-lg sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="bart" src="img/constructionmang.jpg" alt="Construction Man holding steel"> </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item"><a class="nav-link fw-semibold" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="#work">Work Experience</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="contact.html">Contact</a></li>
           <li class="nav-item">
-           <a class="nav-link" href="index.html">Home</a>
-            </li>
-                    <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#work">Work Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-
-            <!-- You can embed a PDF download into your nav menu using the anchor tag with some required attributes -->
-            <li class="nav-item">
-              <a class="nav-link" data-value="resume" download="bartsimpson" target="_blank" href="file:///Users/issamsamneh/Desktop/week1_web/bartsimpson_multipage_template/pdf/Issam%20Resume%20(1)%20copy.pdf">Resume PDF</a>
-            </li>
-          </ul>
-        </div>
+            <a class="nav-link fw-semibold" href="pdf/Issam_Samneh_Resume.pdf" download>Download PDF</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  
-<!-- Navbar - End -->
+    </div>
+  </nav>
 
-<!-- Heroes - Start - source: https://getbootstrap.com/docs/5.3/examples/heroes/  -->
-<header class="container-fluid mb-3 bg-warning">
-
-  <!-- Header row - Start -->
-      <div class="row">
-
-        <!-- Header col - start -->
-        <div class="col px-4 pt-5 my-5 text-center">
-          <h1>Issam-Sari Samneh</h1>
-            <p>Hi I am Issam-Sari Samneh! I am a <span class="standout">jokester</span>, a hardworker, a sporty kind of guy with over 15 years of experience, <span class="standout">I played a LOT of sports</span>, and trying my best in everything I do. </p>
+  <!-- HEADER -->
+  <header class="container-fluid bg-warning py-5 text-center">
+    <h1 class="fw-bold">Issam-Sari Samneh</h1>
+    <p class="lead">I’m a <span class="fw-bold">dedicated learner</span>, passionate about <span class="fw-bold">construction, design, and teamwork</span>. With over 15 years of sports experience, I bring discipline, energy, and focus to every project I take on.</p>
     
-            <!-- Social icons - Header - Start -->
-            <p>
-            <a href="https://facebook.com" target="_blank" class="headsocial"><i class="bi bi-facebook fs-1 p-2"></i></a>
-            <a href="https://instagram.com" target="_blank" class="headsocial"><i class="bi bi-instagram fs-1 p-2"></i></a>
-            <a href="https://linkedin.com" target="_blank" class="headsocial"><i class="bi bi-linkedin fs-1 p-2"></i></a>
-            </p>
-            <!-- Social icons - Header - End -->
+    <div class="social-icons my-3">
+      <a href="https://facebook.com" target="_blank" class="text-dark"><i class="bi bi-facebook fs-2 mx-2"></i></a>
+      <a href="https://instagram.com" target="_blank" class="text-dark"><i class="bi bi-instagram fs-2 mx-2"></i></a>
+      <a href="https://linkedin.com" target="_blank" class="text-dark"><i class="bi bi-linkedin fs-2 mx-2"></i></a>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container my-5">
+    <div class="row g-4">
+
+      <!-- ASIDE -->
+      <aside class="col-md-4 bg-white p-4 rounded shadow-sm">
+        <h2 id="about" class="fw-bold">About Me</h2>
+        <img src="img/bart.jpg" class="img-fluid rounded d-none d-md-block mx-auto my-3" alt="Portrait of Issam-Sari Samneh">
+        <p>I am a highly motivated individual seeking employment opportunities that allow me to learn and further develop my skills. I adapt easily to change and enjoy collaborating within team environments.</p>
+
+        <h2 id="skills" class="fw-bold mt-4">Skills</h2>
+        <h5>Microsoft Office</h5>
+        <ul>
+          <li>Word</li>
+          <li>PowerPoint</li>
+          <li>Excel</li>
+        </ul>
+
+        <h5>Adobe Creative Suite</h5>
+        <ul>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>InDesign</li>
+        </ul>
+
+        <h5>Social Media</h5>
+        <ul>
+          <li>TikTok</li>
+          <li>Instagram</li>
+          <li>Pinterest</li>
+        </ul>
+
+        <h5>Professional Skills</h5>
+        <ul>
+          <li>Problem Solving</li>
+          <li>Customer Service</li>
+          <li>Willingness to Learn</li>
+        </ul>
+
+        <!-- Progress Bars -->
+        <div class="my-3">
+          <div class="progress mb-2">
+            <div class="progress-bar bg-warning text-dark" style="width: 90%;">Microsoft - 90%</div>
+          </div>
+          <div class="progress mb-2">
+            <div class="progress-bar bg-info text-dark" style="width: 70%;">Adobe - 70%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-secondary" style="width: 50%;">Social Media - 50%</div>
+          </div>
         </div>
-        <!-- Header col - End -->
+
+        <iframe class="w-100 mt-3 rounded" height="200" src="pdf/Issam_Samneh_Resume.pdf" title="Issam-Sari Samneh Resume PDF"></iframe>
+      </aside>
+
+      <!-- MAIN SECTION -->
+      <section class="col-md-8 bg-white p-4 rounded shadow-sm">
+        <h2 id="education" class="fw-bold">Education</h2>
+        <h5>Diploma in Building Design and Construction</h5>
+        <p><strong>Western Sydney University</strong> (2025 – Present)</p>
+        <p>Developed a strong foundation in project management, architectural design, and safety regulations. Key subjects include Construction Site Safety, Domestic Construction, and Commercial Construction.</p>
+
+        <h5>Higher School Certificate</h5>
+        <p><strong>East Hills Boys Technology High School</strong> (2019 – 2024)</p>
+        <p>Completed studies in Mathematics, English, Modern History, Geography, Music, and Sport, Lifestyle & Recreation. Achieved an ATAR of 50.5.</p>
+
+        <h2 id="work" class="fw-bold mt-4">Work Experience</h2>
+        <h5>Customer Service Assistant</h5>
+        <p><strong>Oliver Brown Café</strong> (2022)</p>
+        <p>Responsible for maintaining cleanliness, serving customers, and managing orders during busy lunch hours. Developed multitasking and communication skills under pressure.</p>
+
+        <h5>Retail Assistant</h5>
+        <p><strong>Big W Bankstown</strong> (2014 – 2021)</p>
+        <p>Worked alongside the stock team to unpack, organise, and restock shelves. Maintained a tidy environment and helped prevent shoplifting incidents.</p>
+
+        <h2 id="membership" class="fw-bold mt-4">Memberships</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card bg-warning h-100 shadow-sm">
+              <img src="img/crunch.webp" class="card-img-top" alt="Crunch Fitness Gym">
+              <div class="card-body">
+                <h5 class="card-title">Crunch Fitness</h5>
+                <p class="card-text">Affordable, friendly gym with clean facilities and supportive members. Great for staying active and focused.</p>
+              </div>
+              <div class="card-footer text-muted">Member since 2021</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-warning h-100 shadow-sm">
+              <img src="img/white.png" class="card-img-top" alt="White Card Logo">
+              <div class="card-body">
+                <h5 class="card-title">White Card Certification</h5>
+                <p class="card-text">Qualified to work legally in the Australian construction industry after completing the safety induction course.</p>
+              </div>
+              <div class="card-footer text-muted">Certified since 2025</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-warning h-100 shadow-sm">
+              <img src="img/spotify.png" class="card-img-top" alt="Spotify Logo">
+              <div class="card-body">
+                <h5 class="card-title">Spotify Premium</h5>
+                <p class="card-text">I use Spotify daily to focus, stay motivated, and relax during studies and work.</p>
+              </div>
+              <div class="card-footer text-muted">Member since 2019</div>
+            </div>
+          </div>
         </div>
-      <!-- Header row - End -->
-
-
-<!-- Heroes - End -->
-
-</header>
-
-<!-- Content goes here -->
-
-<!-- Container - Start -->
-<div class="container">
-
-  <!-- Row - Start -->
-  <div class="row">
-
-    <!-- Col 1 - Start - add in aside to make sure you are using semantics -->
-<div class="col-sm-12 col-md-4 bg-white aside">
-
-<h2 id="about">About Me</h2>
-
-<img class="img-fluid mx-auto d-block invert d-none d-md-block" src="img/bart.jpg" alt="Bart Simpson in dark sunglasses">
-
-<p>I am a highly motivated individual seeking employment that allowws me to learn and develop my skills further. I have the ability to adapt to any changes and learn new information whilst wworking in a team environment.</p>
-
-<h2 id="skills">Skills</h2>
-
-<h3>Microsoft</h3>
-<ul>
-  <li>Word</li>
-  <li>PowerPoint</li>
-  <li>Excel</li>
-</ul>
-
-<h3>Adobe</h3>
-<ul>
-  <li>InDesign</li>
-  <li>Illustrator</li>
-  <li>Photoshop</li>
-</ul>
-
-<h3>Social Media</h3>
-<ul>
-  <li>TikTok</li>
-  <li>Instagram</li>
-  <li>Pinterest</li>
-</ul>
-
-<h3>Work Skills</h3>
-<ul>
-<li>Willing to learn</li>
-<li>Problem Solver</li>
-<li>Customer Service</li>
-</ul>
-
-<!-- Progress: https://getbootstrap.com/docs/5.3/components/progress/ -->
-<div class="progress" role="progressbar" aria-label="Adobe Skills" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar adobe text-dark" style="width: 70%">Adobe - 70%</div>
-</div>
-<div class="progress" role="progressbar" aria-label="Microsoft Skills" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar micro text-dark" style="width: 90%">Microsoft - 90%</div>
-</div>
-<div class="progress" role="progressbar" aria-label="Social Media Skills" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar socmedia" style="width: 50%">Social Media - 50%</div>
-</div>
-
-<!-- iframe is another way you can add in a viewable pdf component within your resume. You can also add an anchor tag around it to make the PDF downloadable -->
-<iframe class="resume" src="pdf/bartsimpson_resume_2023.pdf" frameborder="0" title="Bart Simpson Resume PDF"></iframe>
-
-</div>
-<!-- Col 1 - End -->
-
-<!-- Col 2 - Start - add in main to ensure you are using semantics -->
-<div class="col-sm-12 col-md-8 bg-white main">
-
-<h2 id="education">Education</h2>
-
-<h3>Building Design and Construction</h3>
-<h4>Western Sydney University</h4>
-<p>03/03/2025, this course taught us all we needed to know about project management as well as other things such as architcture. They were teaching us subjects such as Construction Site Safety, Commercial Construction and Domestic Construction. These are just to name a few subjects.</p>
-
-<h3>Higher School Certificate</h3>
-<h4>East Hills Boys Technology Highschool</h4>
-<p>08/02/2019-19/09/2024, my Atar was a low 50.5, the subjects that I studied in highschool were, Advanced mathematics, Standard english, Modern History, Geography, Music and SLR. These subjects were what I had an interest in so I took them to make sure I enjoyed my last days in highschool with no regrets.</p>
-
-<h2 id="work">Work Experience</h2>
-
-<h3>Customer Service</h3>
-<h4>Oliver Brown</h4>
-<p>The main roles I had while working at Oliver Brown were to, clean up dishes, wipe down tables, make sure the tables were cleared before more customers came and serve customers at the register. I worked there only in 2022, the job was sometimes chaotic especially around peak hour which was at 12:00pm-2:00pm, other than that it was a slow and steady work place.</p>
-
-<h3>Staff Member</h3>
-<h4>Big W Bankstown</h4>
-<p>The main thing I was doing in Big W was stocking shelves, unwrapping the goods (unwrapping and unboxing product to be stored on shelves), I started working with my dad in 2014 and stopped working there in general in 2021, all that was to be done was stock shelves, unwrap goods, make sure the store was tidy and make sure no one stole.</p>
-
-<h2 id="membership">Memberships</h2>
-
-<!-- Card: https://getbootstrap.com/docs/5.3/components/card/ -->
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 bg-white">
-  <div class="col">
-    <div class="card h-100 bg-warning">
-      <img src="img/crunch.webp" class="card-img-top" alt="Itchy and Scratchy">
-      <div class="card-body">
-        <h5 class="card-title">Crunch Fitness</h5>
-        <p class="card-text">Crunch is a well known gym that is cheap and reliable as well as having a safe environment for people to work out at their own pace. The people are friendly and the facilities are clean.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Member since 2021</small>
-      </div>
+      </section>
     </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 bg-warning">
-      <img src="img/white.png" class="card-img-top" alt="Bart Skateboarding">
-      <div class="card-body">
-        <h5 class="card-title">White Card</h5>
-        <p class="card-text">This card allows me to work in construction leagally as I have passed the construction safety course.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Member since 2025</small>
-      </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-warning py-4 text-center">
+    <div>
+      <a href="https://facebook.com" target="_blank" class="text-dark mx-2"><i class="bi bi-facebook fs-2"></i></a>
+      <a href="https://instagram.com" target="_blank" class="text-dark mx-2"><i class="bi bi-instagram fs-2"></i></a>
+      <a href="https://linkedin.com" target="_blank" class="text-dark mx-2"><i class="bi bi-linkedin fs-2"></i></a>
     </div>
-  </div>
-  <div class="col">
-    <div class="card h-100 bg-warning">
-      <img src="img/spotify.png" class="card-img-top" alt="Krusty the Clown">
-      <div class="card-body">
-        <h5 class="card-title">Spotify</h5>
-        <p class="card-text">This is my spotify membership that I use to stream music which helps me work as well as focus in class.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Member since 2019</small>
-      </div>
-    </div>
-  </div>
-</div>
+    <button type="button" class="btn btn-outline-dark btn-lg mt-3" onclick="window.open('pdf/Issam_Samneh_Resume.pdf')">View My Resume</button>
+    <p class="mt-3 mb-0">&copy; 2025 Issam-Sari Samneh | All Rights Reserved</p>
+  </footer>
 
-</div>
-<!-- Col 2 - End -->
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YFJx1mXotT6Vws6uS5EKL5o+NydqJ+dVxrGp+VDT4sZ/BdF2z1l9cUuq4+1g5yXk"
+          crossorigin="anonymous"></script>
 
-
-  </div>
-<!-- Row - End -->
-
-</div>
-<!-- Container - End -->
-
-<!-- Content ends here -->
-
-
-
-<!-- Footer - Start -->
-
-<footer class="container-fluid my-3 py-3 bg-warning">
-
-  <!-- Row footer - Start -->
-<div class="row bg-warning">
-
-  <!-- Col footer - Start -->
-<div class="col">
-
-  <p class="text-center mt-3">
-    <a href="https://facebook.com" target="_blank" class="footsocial"><i class="bi bi-facebook fs-1 p-2"></i></a>
-    <a href="https://instagram.com" target="_blank" class="footsocial"><i class="bi bi-instagram fs-1 p-2"></i></a>
-    <a href="https://linkedin.com" target="_blank" class="footsocial"><i class="bi bi-linkedin fs-1 p-2"></i></a>
-    </p>
-
-    <!-- A button is a great way for you to add a PDF that is downloadable into your resume/portfolio website -->
-    <button type="submit" class="btn btn-outline-secondary btn-lg mx-auto d-block" onclick="window.open('pdf/bartsimpson_resume_2023.pdf'); return true;">Want to see my resume?</button>
-<!-- Button - End -->
-
-</div>
-<!-- Col footer - End -->
-
-  </div>
-<!-- Row footer - End -->
-
-</footer>
-
-
-<!-- Footer - End -->
-
-
-
-<!-- =================No Content below here========================= -->
-    <!-- Bootstrap JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-
-
-        <!--  BOOTSTRAP BUNDLE WITH POPPER - Start -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
-       <!--  BOOTSTRAP BUNDLE WITH POPPER - End -->
-
-
-  </body>
+</body>
 </html>
-
-<!-- Bootstrap 5 Bart Simpson template designed for INFO1005 Website Design - 2025 -->
-
-
